@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Env / secrets (do not publish)
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+*secret*
+*credential*
+*password*
+*token*
+*private_key*
+
+# Node / static site tools (optional)
+node_modules/
+dist/
+.cache/
+
+# Build artifacts
+coverage/
